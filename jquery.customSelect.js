@@ -1,14 +1,21 @@
 /*!
- * jquery.customSelect() - v0.5.1
+ * jquery.customSelect() - v0.5.2
  * http://adam.co/lab/jquery/customselect/
- * 2014-03-19
+ * 2016-01-20
  *
  * Copyright 2013 Adam Coulombe
  * @license http://www.opensource.org/licenses/mit-license.html MIT License
  * @license http://www.gnu.org/licenses/gpl.html GPL2 License 
  */
-
-(function ($) {
+ (function (factory) {
+    if ( typeof define === "function" && defined.amd ) {
+      define(["jquery"], factory);
+    } else if ( typeof exports === "object" ) {
+      module.exports = factory(require("jquery"));
+    } else {
+      factory(jQuery);
+    }
+ } (function ($) {
     'use strict';
 
     $.fn.extend({
@@ -150,4 +157,4 @@
             });
         }
     });
-})(jQuery);
+}));

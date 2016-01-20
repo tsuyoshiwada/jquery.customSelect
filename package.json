@@ -1,0 +1,19 @@
+{
+  "name": "jquery-custom-select",
+  "version": "0.5.2",
+  "description": "forked from adamcoulombe/jquery.customSelect",
+  "main": "jquery.customSelect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuyoshiwada/jquery.customSelect.git"
+  },
+  "author": "tsuyoshiwada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsuyoshiwada/jquery.customSelect/issues"
+  },
+  "homepage": "https://github.com/tsuyoshiwada/jquery.customSelect#readme"
+}
